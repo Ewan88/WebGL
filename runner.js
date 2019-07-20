@@ -141,7 +141,7 @@ function initBuffers(gl) {
   // define each face as two triangles
   const indices = [
     0, 1, 2,      0, 2, 3, // front
-    0, 5, 6,      4, 6, 7, // back
+    4, 5, 6,      4, 6, 7, // back
     8, 9, 10,     8, 10, 11, // top
     12, 13, 14,   12, 14, 15, // bottom
     16, 17, 18,   16, 18, 19, // right
@@ -181,7 +181,7 @@ function drawScene(gl, programInfo, buffers, deltaTime) {
   // rotate around Z axis
   mat4.rotate(modelViewMatrix, modelViewMatrix, cubeRotation, [0, 0, 1]);
   // rotate around X axis
-  mat4.rotate(modelViewMatrix, modelViewMatrix, cubeRotation * 7, [0, 1, 0]);
+  mat4.rotate(modelViewMatrix, modelViewMatrix, cubeRotation * .7, [0, 1, 0]);
 
   // create data from position buffer
   {
