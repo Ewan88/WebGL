@@ -1,0 +1,24 @@
+{
+  "name": "webgl",
+  "version": "1.0.0",
+  "description": "requires https://github.com/mdn/webgl-examples/blob/gh-pages/tutorial/gl-matrix.js in root dir",
+  "main": "server.js",
+  "dependencies": {
+    "serve-static": "^1.14.1",
+    "connect": "^3.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ewan88/WebGL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ewan88/WebGL/issues"
+  },
+  "homepage": "https://github.com/Ewan88/WebGL#readme"
+}
