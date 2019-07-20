@@ -1,1 +1,7 @@
-requires https://github.com/mdn/webgl-examples/blob/gh-pages/tutorial/gl-matrix.js in root dir
+###### requires glMatrix
+
+download it from http://glmatrix.net/ and unzip to main directory
+
+`npm i` installs dependencies
+
+`npm start` starts server at localhost:8080
